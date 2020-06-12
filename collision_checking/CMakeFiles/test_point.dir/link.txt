@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test_point.dir/src/testpoint.cpp.o  -o test_point libcollosion_lib.a 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcollosion_lib.a  CMakeFiles/collosion_lib.dir/src/linesegment2d.cpp.o CMakeFiles/collosion_lib.dir/src/point2d.cpp.o CMakeFiles/collosion_lib.dir/src/test.cpp.o
+/usr/bin/ranlib libcollosion_lib.a

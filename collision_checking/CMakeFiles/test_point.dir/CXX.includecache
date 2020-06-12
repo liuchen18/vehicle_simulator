@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/testpoint.cpp
+point2d.h
+/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/point2d.h
+iostream
+-
+
+include/collosion_checking/point2d.h
+
