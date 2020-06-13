@@ -1,4 +1,4 @@
 /home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles/rebuild_cache.dir
 /home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles/edit_cache.dir
-/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles/collosion_lib.dir
-/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles/test.dir
+/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles/collision_lib.dir
+/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles/collision_test.dir

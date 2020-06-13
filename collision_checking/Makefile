@@ -111,30 +111,57 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named collosion_lib
+# Target rules for targets named collision_lib
 
 # Build rule for target.
-collosion_lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 collosion_lib
-.PHONY : collosion_lib
+collision_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 collision_lib
+.PHONY : collision_lib
 
 # fast build rule for target.
-collosion_lib/fast:
-	$(MAKE) -f CMakeFiles/collosion_lib.dir/build.make CMakeFiles/collosion_lib.dir/build
-.PHONY : collosion_lib/fast
+collision_lib/fast:
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/build
+.PHONY : collision_lib/fast
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named collision_test
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test
-.PHONY : test
+collision_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 collision_test
+.PHONY : collision_test
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+collision_test/fast:
+	$(MAKE) -f CMakeFiles/collision_test.dir/build.make CMakeFiles/collision_test.dir/build
+.PHONY : collision_test/fast
+
+src/AABB2d.o: src/AABB2d.cpp.o
+
+.PHONY : src/AABB2d.o
+
+# target to build an object file
+src/AABB2d.cpp.o:
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/AABB2d.cpp.o
+.PHONY : src/AABB2d.cpp.o
+
+src/AABB2d.i: src/AABB2d.cpp.i
+
+.PHONY : src/AABB2d.i
+
+# target to preprocess a source file
+src/AABB2d.cpp.i:
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/AABB2d.cpp.i
+.PHONY : src/AABB2d.cpp.i
+
+src/AABB2d.s: src/AABB2d.cpp.s
+
+.PHONY : src/AABB2d.s
+
+# target to generate assembly for a file
+src/AABB2d.cpp.s:
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/AABB2d.cpp.s
+.PHONY : src/AABB2d.cpp.s
 
 src/linesegment2d.o: src/linesegment2d.cpp.o
 
@@ -142,7 +169,7 @@ src/linesegment2d.o: src/linesegment2d.cpp.o
 
 # target to build an object file
 src/linesegment2d.cpp.o:
-	$(MAKE) -f CMakeFiles/collosion_lib.dir/build.make CMakeFiles/collosion_lib.dir/src/linesegment2d.cpp.o
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o
 .PHONY : src/linesegment2d.cpp.o
 
 src/linesegment2d.i: src/linesegment2d.cpp.i
@@ -151,7 +178,7 @@ src/linesegment2d.i: src/linesegment2d.cpp.i
 
 # target to preprocess a source file
 src/linesegment2d.cpp.i:
-	$(MAKE) -f CMakeFiles/collosion_lib.dir/build.make CMakeFiles/collosion_lib.dir/src/linesegment2d.cpp.i
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.i
 .PHONY : src/linesegment2d.cpp.i
 
 src/linesegment2d.s: src/linesegment2d.cpp.s
@@ -160,7 +187,7 @@ src/linesegment2d.s: src/linesegment2d.cpp.s
 
 # target to generate assembly for a file
 src/linesegment2d.cpp.s:
-	$(MAKE) -f CMakeFiles/collosion_lib.dir/build.make CMakeFiles/collosion_lib.dir/src/linesegment2d.cpp.s
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.s
 .PHONY : src/linesegment2d.cpp.s
 
 src/point2d.o: src/point2d.cpp.o
@@ -169,7 +196,7 @@ src/point2d.o: src/point2d.cpp.o
 
 # target to build an object file
 src/point2d.cpp.o:
-	$(MAKE) -f CMakeFiles/collosion_lib.dir/build.make CMakeFiles/collosion_lib.dir/src/point2d.cpp.o
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/point2d.cpp.o
 .PHONY : src/point2d.cpp.o
 
 src/point2d.i: src/point2d.cpp.i
@@ -178,7 +205,7 @@ src/point2d.i: src/point2d.cpp.i
 
 # target to preprocess a source file
 src/point2d.cpp.i:
-	$(MAKE) -f CMakeFiles/collosion_lib.dir/build.make CMakeFiles/collosion_lib.dir/src/point2d.cpp.i
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/point2d.cpp.i
 .PHONY : src/point2d.cpp.i
 
 src/point2d.s: src/point2d.cpp.s
@@ -187,7 +214,7 @@ src/point2d.s: src/point2d.cpp.s
 
 # target to generate assembly for a file
 src/point2d.cpp.s:
-	$(MAKE) -f CMakeFiles/collosion_lib.dir/build.make CMakeFiles/collosion_lib.dir/src/point2d.cpp.s
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/point2d.cpp.s
 .PHONY : src/point2d.cpp.s
 
 src/test.o: src/test.cpp.o
@@ -196,8 +223,8 @@ src/test.o: src/test.cpp.o
 
 # target to build an object file
 src/test.cpp.o:
-	$(MAKE) -f CMakeFiles/collosion_lib.dir/build.make CMakeFiles/collosion_lib.dir/src/test.cpp.o
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/test.cpp.o
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/test.cpp.o
+	$(MAKE) -f CMakeFiles/collision_test.dir/build.make CMakeFiles/collision_test.dir/src/test.cpp.o
 .PHONY : src/test.cpp.o
 
 src/test.i: src/test.cpp.i
@@ -206,8 +233,8 @@ src/test.i: src/test.cpp.i
 
 # target to preprocess a source file
 src/test.cpp.i:
-	$(MAKE) -f CMakeFiles/collosion_lib.dir/build.make CMakeFiles/collosion_lib.dir/src/test.cpp.i
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/test.cpp.i
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/test.cpp.i
+	$(MAKE) -f CMakeFiles/collision_test.dir/build.make CMakeFiles/collision_test.dir/src/test.cpp.i
 .PHONY : src/test.cpp.i
 
 src/test.s: src/test.cpp.s
@@ -216,8 +243,8 @@ src/test.s: src/test.cpp.s
 
 # target to generate assembly for a file
 src/test.cpp.s:
-	$(MAKE) -f CMakeFiles/collosion_lib.dir/build.make CMakeFiles/collosion_lib.dir/src/test.cpp.s
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/test.cpp.s
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/test.cpp.s
+	$(MAKE) -f CMakeFiles/collision_test.dir/build.make CMakeFiles/collision_test.dir/src/test.cpp.s
 .PHONY : src/test.cpp.s
 
 # Help Target
@@ -228,8 +255,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... collosion_lib"
-	@echo "... test"
+	@echo "... collision_lib"
+	@echo "... collision_test"
+	@echo "... src/AABB2d.o"
+	@echo "... src/AABB2d.i"
+	@echo "... src/AABB2d.s"
 	@echo "... src/linesegment2d.o"
 	@echo "... src/linesegment2d.i"
 	@echo "... src/linesegment2d.s"

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/collision_test.dir/src/test.cpp.o  -o collision_test libcollision_lib.a 

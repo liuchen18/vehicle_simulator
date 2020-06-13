@@ -3,7 +3,7 @@
 
 #include "point2d.h"
 
-namespace collosion{
+namespace collision{
 class linesegment2d{
 private:
     point2d start_,end_,direction_unit;

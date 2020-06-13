@@ -2,7 +2,7 @@
 #include <cmath>
 #include <iostream>
 
-namespace collosion
+namespace collision
 {
 linesegment2d::linesegment2d(point2d& start, point2d& end)
         :start_(start),end_(end),direction_unit(0,0){
@@ -16,6 +16,7 @@ linesegment2d::linesegment2d(point2d& start, point2d& end)
 
     direction_angle=direction_unit.angle_to_x_axis();
 }
+
 double linesegment2d::distance_to_point(const point2d& given_point) const{
     double dx = given_point.get_x()-start_.get_x();
     double dy = given_point.get_y()-start_.get_y();
@@ -29,16 +30,19 @@ double linesegment2d::distance_to_point(const point2d& given_point) const{
     double distance = std::abs(dx*direction_unit.get_y()-dy*direction_unit.get_x());
     return distance;
 }
+
 bool linesegment2d::is_point_in(const point2d& given_point) const{
     if(distance_to_point(given_point)<kMathEpsilon){
         return true;
     }
     return false;
 }
+
 bool linesegment2d::has_intersect(const linesegment2d& another_line) const{
     point2d point;
     return get_intersect(another_line,&point);
 }
+
 bool linesegment2d::get_intersect(const linesegment2d& another_line,point2d* intersect_point) const{
     if(is_point_in(another_line.get_start())){
         *intersect_point = another_line.get_start();

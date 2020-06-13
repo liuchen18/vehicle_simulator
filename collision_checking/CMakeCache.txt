@@ -103,7 +103,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=collosion_checking
+CMAKE_PROJECT_NAME:STATIC=collision_checking
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -153,6 +153,15 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+collision_checking_BINARY_DIR:STATIC=/home/chen/ws_chen/src/planning_control_for_cars/collision_checking
+
+//Value Computed by CMake
+collision_checking_SOURCE_DIR:STATIC=/home/chen/ws_chen/src/planning_control_for_cars/collision_checking
+
+//Dependencies for target
+collision_lib_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
 collosion_checking_BINARY_DIR:STATIC=/home/chen/ws_chen/src/planning_control_for_cars/collision_checking

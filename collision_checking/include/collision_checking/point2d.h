@@ -2,7 +2,7 @@
 #define _POINT2D
 
 
-namespace collosion{
+namespace collision{
     constexpr double kMathEpsilon = 1e-10;
     class point2d{
         public:

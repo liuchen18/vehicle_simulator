@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/test.dir/src/test.cpp.o  -o test libcollosion_lib.a 
+/usr/bin/c++    -rdynamic CMakeFiles/test.dir/src/test.cpp.o  -o test libcollision_lib.a 
