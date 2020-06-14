@@ -7,16 +7,21 @@ namespace collision{
     class point2d{
         public:
         point2d():x_(0),y_(0){};
-        point2d(double x,double y):x_(x),y_(y){};
+        point2d(const double x,const double y):x_(x),y_(y){};
         double get_x() const{return x_;}
         double get_y() const{return y_;}
         double get_xsquare() const {return x_*x_;}
         double get_ysquare() const{return y_*y_;}
-        void set_x(double x){x_=x;}
-        void set_y(double y){y_=y;}
-        void set_xy(double x,double y){x_=x;y_=y;}
+        void set_x(const double x){x_=x;}
+        void set_y(const double y){y_=y;}
+        void set_xy(const double x,const double y){x_=x;y_=y;}
+        void set_xy(const point2d& another_point){x_=another_point.get_x();y_=another_point.get_y();}
         /*angle to the positive x semi axis*/
-        double angle_to_x_axis();
+        double get_angle();
+
+        void normalize();
+
+        double get_length() const;
 
         /*compute distance to another given point*/
         double distance_to_point(const point2d& another) const;

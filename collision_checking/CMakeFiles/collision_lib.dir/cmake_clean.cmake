@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/collision_lib.dir/src/AABB2d.cpp.o"
+  "CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o"
   "CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o"
   "CMakeFiles/collision_lib.dir/src/point2d.cpp.o"
   "CMakeFiles/collision_lib.dir/src/test.cpp.o"

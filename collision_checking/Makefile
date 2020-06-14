@@ -163,6 +163,33 @@ src/AABB2d.cpp.s:
 	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/AABB2d.cpp.s
 .PHONY : src/AABB2d.cpp.s
 
+src/OBB2d.o: src/OBB2d.cpp.o
+
+.PHONY : src/OBB2d.o
+
+# target to build an object file
+src/OBB2d.cpp.o:
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o
+.PHONY : src/OBB2d.cpp.o
+
+src/OBB2d.i: src/OBB2d.cpp.i
+
+.PHONY : src/OBB2d.i
+
+# target to preprocess a source file
+src/OBB2d.cpp.i:
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/OBB2d.cpp.i
+.PHONY : src/OBB2d.cpp.i
+
+src/OBB2d.s: src/OBB2d.cpp.s
+
+.PHONY : src/OBB2d.s
+
+# target to generate assembly for a file
+src/OBB2d.cpp.s:
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/OBB2d.cpp.s
+.PHONY : src/OBB2d.cpp.s
+
 src/linesegment2d.o: src/linesegment2d.cpp.o
 
 .PHONY : src/linesegment2d.o
@@ -260,6 +287,9 @@ help:
 	@echo "... src/AABB2d.o"
 	@echo "... src/AABB2d.i"
 	@echo "... src/AABB2d.s"
+	@echo "... src/OBB2d.o"
+	@echo "... src/OBB2d.i"
+	@echo "... src/OBB2d.s"
 	@echo "... src/linesegment2d.o"
 	@echo "... src/linesegment2d.i"
 	@echo "... src/linesegment2d.s"

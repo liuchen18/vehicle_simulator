@@ -2,7 +2,19 @@
 #include <cmath>
 
 namespace collision{
-double point2d::angle_to_x_axis(){return std::atan2(y_,x_);}
+double point2d::get_angle(){return std::atan2(y_,x_);}
+
+void point2d::normalize(){
+    double l=get_length();
+    if(l>kMathEpsilon){
+        x_=x_/l;
+        y_=y_/l;
+    }
+}
+
+double point2d::get_length() const{
+    return std::hypot(x_,y_);
+}
 
 double point2d::distance_to_point(const point2d& another) const{
     return std::hypot(x_-another.get_x(),y_-another.get_y());

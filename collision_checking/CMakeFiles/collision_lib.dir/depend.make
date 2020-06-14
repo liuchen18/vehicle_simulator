@@ -5,6 +5,12 @@ CMakeFiles/collision_lib.dir/src/AABB2d.cpp.o: src/AABB2d.cpp
 CMakeFiles/collision_lib.dir/src/AABB2d.cpp.o: include/collision_checking/AABB2d.h
 CMakeFiles/collision_lib.dir/src/AABB2d.cpp.o: include/collision_checking/point2d.h
 
+CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o: src/OBB2d.cpp
+CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o: include/collision_checking/AABB2d.h
+CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o: include/collision_checking/OBB2d.h
+CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o: include/collision_checking/linesegment2d.h
+CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o: include/collision_checking/point2d.h
+
 CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o: src/linesegment2d.cpp
 CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o: include/collision_checking/linesegment2d.h
 CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o: include/collision_checking/point2d.h
@@ -14,6 +20,7 @@ CMakeFiles/collision_lib.dir/src/point2d.cpp.o: include/collision_checking/point
 
 CMakeFiles/collision_lib.dir/src/test.cpp.o: src/test.cpp
 CMakeFiles/collision_lib.dir/src/test.cpp.o: include/collision_checking/AABB2d.h
+CMakeFiles/collision_lib.dir/src/test.cpp.o: include/collision_checking/OBB2d.h
 CMakeFiles/collision_lib.dir/src/test.cpp.o: include/collision_checking/linesegment2d.h
 CMakeFiles/collision_lib.dir/src/test.cpp.o: include/collision_checking/point2d.h
 

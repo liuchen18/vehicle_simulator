@@ -4,5 +4,6 @@
 CMakeFiles/collision_test.dir/src/test.cpp.o
  /home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/test.cpp
  include/collision_checking/AABB2d.h
+ include/collision_checking/OBB2d.h
  include/collision_checking/linesegment2d.h
  include/collision_checking/point2d.h

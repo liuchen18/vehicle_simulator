@@ -6,16 +6,21 @@
 namespace collision{
 class linesegment2d{
 private:
-    point2d start_,end_,direction_unit;
+    point2d start_,end_,direction_unit_;
     double direction_angle;//angle to the positive x semi axis
     double length;
 
 public:
-    linesegment2d(point2d& start,point2d& end);
+    linesegment2d(const point2d& start,const point2d& end);
 
     const point2d& get_start() const{return start_;}
     const point2d& get_end() const{return end_;}
-    const point2d& get_direction_unit() const{return direction_unit;}
+    const point2d& get_direction_unit() const{return direction_unit_;}
+
+    double get_cos()const{return direction_unit_.get_x();}
+
+    double get_sin()const{return direction_unit_.get_y();}
+
     double get_length() const{return length;}
     double get_angle() const{return direction_angle;}
     const point2d get_center() const{return (start_+end_)/2;}
@@ -36,6 +41,13 @@ public:
     @return bool, whether there is the intersect point 
     */
     bool get_intersect(const linesegment2d& another_line, point2d* intersect_point) const;
+
+    /*
+    @brief compute the intersect point if there is any. t 
+    @param another_line : ahother line segment
+    @return point2d, intersect. if no intersect, return double
+    */
+    point2d get_intersect(const linesegment2d& another_line) const;
 
 };
 

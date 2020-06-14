@@ -81,9 +81,33 @@ CMakeFiles/collision_lib.dir/src/AABB2d.cpp.o.provides: CMakeFiles/collision_lib
 CMakeFiles/collision_lib.dir/src/AABB2d.cpp.o.provides.build: CMakeFiles/collision_lib.dir/src/AABB2d.cpp.o
 
 
+CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o: CMakeFiles/collision_lib.dir/flags.make
+CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o: src/OBB2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o -c /home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/OBB2d.cpp
+
+CMakeFiles/collision_lib.dir/src/OBB2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/collision_lib.dir/src/OBB2d.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/OBB2d.cpp > CMakeFiles/collision_lib.dir/src/OBB2d.cpp.i
+
+CMakeFiles/collision_lib.dir/src/OBB2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/collision_lib.dir/src/OBB2d.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/OBB2d.cpp -o CMakeFiles/collision_lib.dir/src/OBB2d.cpp.s
+
+CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o.requires:
+
+.PHONY : CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o.requires
+
+CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o.provides: CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o.requires
+	$(MAKE) -f CMakeFiles/collision_lib.dir/build.make CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o.provides.build
+.PHONY : CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o.provides
+
+CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o.provides.build: CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o
+
+
 CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o: CMakeFiles/collision_lib.dir/flags.make
 CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o: src/linesegment2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o -c /home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/linesegment2d.cpp
 
 CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.i: cmake_force
@@ -107,7 +131,7 @@ CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/collision_lib.dir/src/point2d.cpp.o: CMakeFiles/collision_lib.dir/flags.make
 CMakeFiles/collision_lib.dir/src/point2d.cpp.o: src/point2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/collision_lib.dir/src/point2d.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/collision_lib.dir/src/point2d.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/collision_lib.dir/src/point2d.cpp.o -c /home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/point2d.cpp
 
 CMakeFiles/collision_lib.dir/src/point2d.cpp.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/collision_lib.dir/src/point2d.cpp.o.provides.build: CMakeFiles/collis
 
 CMakeFiles/collision_lib.dir/src/test.cpp.o: CMakeFiles/collision_lib.dir/flags.make
 CMakeFiles/collision_lib.dir/src/test.cpp.o: src/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/collision_lib.dir/src/test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/collision_lib.dir/src/test.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/collision_lib.dir/src/test.cpp.o -c /home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/test.cpp
 
 CMakeFiles/collision_lib.dir/src/test.cpp.i: cmake_force
@@ -156,6 +180,7 @@ CMakeFiles/collision_lib.dir/src/test.cpp.o.provides.build: CMakeFiles/collision
 # Object files for target collision_lib
 collision_lib_OBJECTS = \
 "CMakeFiles/collision_lib.dir/src/AABB2d.cpp.o" \
+"CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o" \
 "CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o" \
 "CMakeFiles/collision_lib.dir/src/point2d.cpp.o" \
 "CMakeFiles/collision_lib.dir/src/test.cpp.o"
@@ -164,12 +189,13 @@ collision_lib_OBJECTS = \
 collision_lib_EXTERNAL_OBJECTS =
 
 libcollision_lib.a: CMakeFiles/collision_lib.dir/src/AABB2d.cpp.o
+libcollision_lib.a: CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o
 libcollision_lib.a: CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o
 libcollision_lib.a: CMakeFiles/collision_lib.dir/src/point2d.cpp.o
 libcollision_lib.a: CMakeFiles/collision_lib.dir/src/test.cpp.o
 libcollision_lib.a: CMakeFiles/collision_lib.dir/build.make
 libcollision_lib.a: CMakeFiles/collision_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libcollision_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libcollision_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/collision_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/collision_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -179,6 +205,7 @@ CMakeFiles/collision_lib.dir/build: libcollision_lib.a
 .PHONY : CMakeFiles/collision_lib.dir/build
 
 CMakeFiles/collision_lib.dir/requires: CMakeFiles/collision_lib.dir/src/AABB2d.cpp.o.requires
+CMakeFiles/collision_lib.dir/requires: CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o.requires
 CMakeFiles/collision_lib.dir/requires: CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o.requires
 CMakeFiles/collision_lib.dir/requires: CMakeFiles/collision_lib.dir/src/point2d.cpp.o.requires
 CMakeFiles/collision_lib.dir/requires: CMakeFiles/collision_lib.dir/src/test.cpp.o.requires
