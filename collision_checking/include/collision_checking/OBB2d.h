@@ -84,6 +84,12 @@ public:
     /*get min x*/
     double get_max_y() const{return max_y_;}
 
+    /*set length*/
+    void set_length(const double length){length_=length;}
+
+    /*set width*/
+    void set_width(const double width){width_=width;}
+
     /*@brief get the 4 conner
     @param connersptr the pointer to save the addrass of the vector of conner
     */
@@ -145,6 +151,17 @@ public:
     @param angle the angle to rotate
     */
     void rotate(const double angle);
+
+    /*@brief move the box to the given center
+    @param x double x of the center
+    @param y double y of the center
+    */
+    void translate_to(const double x, const double y);
+
+    /*@brief rotate the box to the given angle
+    @param angle double the angle to rotate to
+    */
+    void rotate_to(const double angle);
 
 
 private:

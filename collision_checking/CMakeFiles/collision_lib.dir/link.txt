@@ -1,2 +1,2 @@
-/usr/bin/ar qc libcollision_lib.a  CMakeFiles/collision_lib.dir/src/AABB2d.cpp.o CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o CMakeFiles/collision_lib.dir/src/point2d.cpp.o CMakeFiles/collision_lib.dir/src/test.cpp.o
+/usr/bin/ar qc libcollision_lib.a  CMakeFiles/collision_lib.dir/src/AABB2d.cpp.o CMakeFiles/collision_lib.dir/src/OBB2d.cpp.o CMakeFiles/collision_lib.dir/src/linesegment2d.cpp.o CMakeFiles/collision_lib.dir/src/obstacle.cpp.o CMakeFiles/collision_lib.dir/src/point2d.cpp.o CMakeFiles/collision_lib.dir/src/test.cpp.o
 /usr/bin/ranlib libcollision_lib.a

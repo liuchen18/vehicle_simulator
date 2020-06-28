@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="collision_checking"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="collision_test">
+				<Option output="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/collision_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/include/collision_checking"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 collision_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="collision_test/fast">
+				<Option output="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/collision_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/include/collision_checking"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 collision_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="collision_lib">
+				<Option output="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/libcollision_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/include/collision_checking"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 collision_lib"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="collision_lib/fast">
+				<Option output="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/libcollision_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/include/collision_checking"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 collision_lib/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/AABB2d.cpp">
+			<Option target="collision_lib"/>
+		</Unit>
+		<Unit filename="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/OBB2d.cpp">
+			<Option target="collision_lib"/>
+		</Unit>
+		<Unit filename="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/linesegment2d.cpp">
+			<Option target="collision_lib"/>
+		</Unit>
+		<Unit filename="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/obstacle.cpp">
+			<Option target="collision_lib"/>
+		</Unit>
+		<Unit filename="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/point2d.cpp">
+			<Option target="collision_lib"/>
+		</Unit>
+		<Unit filename="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/src/test.cpp">
+			<Option target="collision_test"/>
+			<Option target="collision_lib"/>
+		</Unit>
+		<Unit filename="/home/chen/ws_chen/src/planning_control_for_cars/collision_checking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

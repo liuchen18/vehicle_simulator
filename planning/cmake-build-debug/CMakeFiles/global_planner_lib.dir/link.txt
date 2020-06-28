@@ -1,0 +1,2 @@
+/usr/bin/ar qc libglobal_planner_lib.a  CMakeFiles/global_planner_lib.dir/global_planner/src/hybridAstar_algorithm.cpp.o CMakeFiles/global_planner_lib.dir/global_planner/src/node.cpp.o
+/usr/bin/ranlib libglobal_planner_lib.a

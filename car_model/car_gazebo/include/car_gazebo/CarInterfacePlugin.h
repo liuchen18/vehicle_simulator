@@ -15,7 +15,7 @@ namespace gazebo {
 
 // Kinematics parameters
 #define Car_STEERING_RATIO      17.3  // Ratio between steering wheel angle and tire angle
-#define Car_LOCK_TO_LOCK_REVS   3.2   // Number of steering wheel turns to go from lock to lock
+#define Car_LOCK_TO_LOCK_REVS   3   // Number of steering wheel turns to go from lock to lock
 #define Car_MAX_STEER_ANGLE     (M_PI * Car_LOCK_TO_LOCK_REVS / Car_STEERING_RATIO)
 #define Car_WHEELBASE           2.65  // Distance between front and rear axles
 #define Car_TRACK_WIDTH         1.638 // Distance between front wheels

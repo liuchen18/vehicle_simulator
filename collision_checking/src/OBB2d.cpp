@@ -227,6 +227,24 @@ void OBB2d::rotate(const double angle){
     compute_conners();
 }
 
+void OBB2d::translate_to(const double x, const double y){
+    center_.set_xy(x,y);
+    compute_conners();
+}
+
+void OBB2d::rotate_to(const double angle){
+    angle_=angle;
+    angle_=std::fmod(angle_,2*M_PI);
+    if(angle_<0.0){
+        angle_+=2*M_PI;
+    }
+    direction_unit_.set_x(std::cos(angle_));
+    direction_unit_.set_y(std::sin(angle_));
+    cos_angle_=direction_unit_.get_x();
+    sin_angle_=direction_unit_.get_y();
+    compute_conners();
+}
+
 
 
 }

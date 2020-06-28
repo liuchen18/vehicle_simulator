@@ -1,0 +1,11 @@
+/home/chen/Downloads/clion-2020.1.2/bin/cmake/linux/bin/cmake -G "CodeBlocks - Unix Makefiles" /home/chen/ws_chen/src/planning_control_for_cars/collision_checking
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chen/ws_chen/src/planning_control_for_cars/collision_checking
